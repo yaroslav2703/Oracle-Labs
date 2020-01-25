@@ -1,0 +1,28 @@
+
+SQL*Loader: Release 12.1.0.1.0 - Production on Mon Dec 9 05:01:45 2019
+
+Copyright (c) 1982, 2013, Oracle and/or its affiliates.  All rights reserved.
+
+SQL*Loader-307: Warning: conflicting lengths 1 and 4 specified for column F1 table LOADERINFO2
+Control File:   33.ctl
+Data File:      33.ctl
+  Bad File:     33.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table LOADERINFO2, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+F1                                    1:1     4           INTEGER              
+
+SQL*Loader-601: For INSERT option, table must be empty.  Error on table LOADERINFO2
